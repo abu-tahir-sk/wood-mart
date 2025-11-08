@@ -140,7 +140,7 @@ const MainBanner = () => {
             <motion.img
               src={slides[current].img}
               alt={slides[current].title}
-              className="w-3/4 lg:w-1/2 object-fill"
+              className="w-3/4 lg:w-1/2 object-contain"
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
